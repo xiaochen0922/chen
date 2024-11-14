@@ -1,0 +1,75 @@
+2024-07-02 11:06:18,291-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:06:18,291-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:06:18,292-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:06:18,292-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:08:55,816-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:08:55,818-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:08:55,818-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:08:55,818-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:08:55,885-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-webtest.api.lichidental.com/lichidental-web/product/single/detail?pdCode=PDC0555&productSku=300445&coupon=true&channel=APP
+2024-07-02 11:08:55,885-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>GET
+2024-07-02 11:08:55,885-httpClient.py-[line:41]-INFO-[日志信息]: 响应内容无法解析为JSON
+2024-07-02 11:11:30,371-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:11:30,372-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:11:30,372-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:11:30,372-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:15:29,694-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:15:29,694-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:15:29,694-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:15:29,694-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:15:58,363-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:15:58,363-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:15:58,364-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:15:58,364-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:18:40,391-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:18:40,392-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:18:40,392-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:18:40,393-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:19:04,758-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:19:04,758-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:19:04,758-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:19:04,758-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:19:19,119-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:19:19,120-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:19:19,120-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:19:19,120-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}
+2024-07-02 11:20:00,848-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-07-02 11:20:00,849-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-07-02 11:20:00,849-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-07-02 11:20:00,849-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": 18711971689,
+  "password": 123456
+}

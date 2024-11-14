@@ -1,0 +1,440 @@
+2024-04-08 16:00:39,696-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:00:39,696-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:00:39,697-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:00:39,697-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:00:39,704-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:00:39,785-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:00:39,785-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:00:39,786-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:00:39,786-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:00:39,787-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:00:39,790-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:00:40,035-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:00:40,035-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:00:40,035-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:00:40,035-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:00:40,036-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:00:40,036-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:00:40,040-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:00:42,810-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:00:42,810-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:00:42,811-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408160040701o5', 'orderStatus': 6, 'id': 'c390e8fe3ef14f91bae75dd1ca13106b'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:00:42,811-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:00:42,811-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:00:42,813-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:04:48,608-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:04:48,609-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:04:48,609-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:04:48,609-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:04:48,615-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:04:48,710-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:04:48,711-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:04:48,711-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:04:48,711-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:04:48,712-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:04:48,716-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:04:48,975-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:04:48,975-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:04:48,976-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:04:48,976-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:04:48,976-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:04:48,977-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:04:48,980-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:04:51,689-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:04:51,690-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:04:51,690-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408160449652m2', 'orderStatus': 6, 'id': '582cb2b0636a4921b3ad7edc8e8ea7f1'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:04:51,691-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:04:51,691-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:04:51,693-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:06:06,789-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:06:06,790-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:06:06,790-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:06:06,790-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:06:06,796-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:06:06,887-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:06:06,887-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:06:06,888-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:06:06,888-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:06:06,889-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:06:06,894-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:06:07,124-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:06:07,124-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:06:07,125-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:06:07,125-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:06:07,126-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:06:07,126-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:06:07,130-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:06:09,958-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:06:09,958-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:06:09,959-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA24040816060779044', 'orderStatus': 6, 'id': 'afaedae6e31f44589b75cb9635620858'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:06:09,959-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:06:09,959-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:06:09,960-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:20:14,837-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:20:14,837-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:20:14,837-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:20:14,838-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:20:14,842-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:20:14,918-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:20:14,919-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:20:14,919-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:20:14,919-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:20:14,920-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:20:14,924-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:20:15,194-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:20:15,194-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:20:15,194-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:20:15,194-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:20:15,194-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:20:15,195-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:20:15,200-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:20:18,344-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:20:18,345-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:20:18,345-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408162015886sf', 'orderStatus': 6, 'id': '9d4d40aa2b2f4b338732760a4f82830d'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:20:18,345-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:20:18,345-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:20:18,346-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:25:22,895-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:25:22,896-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:25:22,898-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:25:22,898-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:25:22,902-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:25:23,050-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:25:23,050-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:25:23,051-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:25:23,051-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:25:23,052-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:25:23,059-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:25:23,386-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:25:23,386-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:25:23,387-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:25:23,387-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:25:23,387-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:25:23,389-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:25:23,393-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:25:26,343-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:25:26,343-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:25:26,344-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408162524131lr', 'orderStatus': 6, 'id': 'f0126b9622174100a0cf4202e48931fb'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:25:26,344-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:25:26,344-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:25:26,346-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:27:45,822-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:27:45,822-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:27:45,822-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:27:45,823-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:27:45,831-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:27:46,317-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:27:46,317-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:27:46,317-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:27:46,317-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:27:46,319-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:27:46,334-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:27:46,760-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:27:46,762-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:27:46,762-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:27:46,762-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:27:46,762-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:27:46,763-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:27:46,766-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:27:50,121-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:27:50,122-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:27:50,122-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA2404081627475928i', 'orderStatus': 6, 'id': '0a17dd9a06394a1a913cf51542a872a2'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:27:50,122-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:27:50,122-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:27:50,123-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:30:50,276-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:30:50,277-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:30:50,277-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:30:50,277-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:30:50,283-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:30:50,358-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:30:50,359-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:30:50,359-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:30:50,359-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:30:50,361-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:30:50,365-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:30:50,631-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:30:50,631-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:30:50,632-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:30:50,632-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:30:50,632-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:30:50,633-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:30:50,635-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:30:53,497-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:30:53,498-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:30:53,498-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408163051317km', 'orderStatus': 6, 'id': 'f2361e6430a44d2a91ccaf5bcb432d89'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:30:53,498-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:30:53,499-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:30:53,500-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:31:17,894-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:31:17,895-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:31:17,895-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:31:17,895-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:31:17,901-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:31:17,977-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:31:17,977-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:31:17,977-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:31:17,978-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:31:17,979-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:31:17,982-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:31:18,244-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:31:18,244-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:31:18,244-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:31:18,244-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:31:18,244-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:31:18,245-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:31:18,251-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:31:21,002-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:31:21,003-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:31:21,003-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408163118919j1', 'orderStatus': 6, 'id': '11eee0c5c01c41978dc0a0b52ea19896'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:31:21,003-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:31:21,004-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:31:21,005-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:31:59,568-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:31:59,568-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:31:59,568-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:31:59,568-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:31:59,575-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:31:59,641-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:31:59,642-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:31:59,642-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:31:59,642-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:31:59,643-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:31:59,650-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:31:59,887-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:31:59,887-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:31:59,887-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:31:59,887-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:31:59,887-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:31:59,888-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:31:59,895-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:32:02,597-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:32:02,597-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:32:02,597-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA2404081632005508o', 'orderStatus': 6, 'id': 'd7e556d947814013bb4b98307189a0d8'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:32:02,598-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:32:02,598-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:32:02,599-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:32:12,783-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:32:12,784-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:32:12,784-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:32:12,784-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:32:12,792-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:32:12,863-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:32:12,863-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:32:12,863-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:32:12,863-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:32:12,865-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:32:12,868-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:32:13,122-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:32:13,122-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:32:13,122-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:32:13,122-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:32:13,122-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:32:13,124-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:32:13,131-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:32:15,757-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:32:15,757-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:32:15,758-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408163213789ju', 'orderStatus': 6, 'id': '3f83a02946fd49d0ba68fc4e99217ff4'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:32:15,758-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:32:15,758-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:32:15,760-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:35:40,323-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:35:40,323-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:35:40,323-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:35:40,323-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:35:40,334-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:35:40,407-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-08 16:35:40,407-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-04-08 16:35:40,408-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:35:40,408-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-08 16:35:40,411-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:35:40,417-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:35:40,648-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-04-08 16:35:40,648-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:35:40,649-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:35:40,649-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-04-08 16:35:40,649-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:35:40,650-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-08 16:35:40,654-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-08 16:35:43,860-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/order/submit
+2024-04-08 16:35:43,860-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-04-08 16:35:43,861-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'amount': 18.0, 'payPull': True, 'orderId': 'SHA240408163541355pw', 'orderStatus': 6, 'id': '417228f782624adcb38630469190e557'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-04-08 16:35:43,861-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"payType\": 1, \"recName\": \"\\u81fb\\u54c1\\u53e3\\u8154\\u95e8\\u8bca\\u90e8\\u53cd\\u590d\\u590d\\u7535\\u8bdd\\u53f7\\u662f\\u5565\\u5bf9\\u5bf9\\u5bf9\", \"recTel\": \"17877474744\", \"recAddr\": \"\\u5929\\u6d25\\u5e02\\u5929\\u6d25\\u5e02\\u548c\\u5e73\\u533a\\u7269\\u4e1aA1\\u697c1\", \"remark\": \"\", \"detailList\": [{\"productSku\": \"300895\", \"quantity\": \"1\", \"couponId\": \"null\"}], \"invoiceId\": 30901, \"invoiceType\": \"SPECIAL_INVOICE\", \"channel\": \"web\", \"expressFeeFromQuery\": \"false\", \"certificateType\": \"0\", \"useMaxCoupon\": \"true\", \"giftStatus\": 0, \"prmList\": []}"
+2024-04-08 16:35:43,861-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-04-08 16:35:43,865-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束

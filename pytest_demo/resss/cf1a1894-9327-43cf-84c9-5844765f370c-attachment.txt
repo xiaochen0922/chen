@@ -1,0 +1,11 @@
+[32mINFO    [0m root:conftest.py:15 开始执行用例
+[32mINFO    [0m root:httpClient.py:36 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+[32mINFO    [0m root:httpClient.py:37 请求方法>>post
+[32mINFO    [0m root:httpClient.py:39 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+[32mINFO    [0m root:httpClient.py:44 data参数>>>
+"{\"userId\": \"0737f648eab1420db8b2a72cb09952dd\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+[32mINFO    [0m root:httpClient.py:50 headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+[32mINFO    [0m root:conftest.py:17 用例执行结束

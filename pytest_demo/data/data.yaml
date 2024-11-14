@@ -1,0 +1,43 @@
+host:
+  url: 'https://test.api.lichidental.com/lichidental-web'
+#登录
+Request:
+  method: "POST"
+  login_path: '/user/login'
+  data : {"account": 18711971689, "password": 123456}
+  account : "18711971689"
+  password : "123456"
+
+
+login_fixture:
+  account: "18711971689"
+  password: "123456"
+user_login :
+  account: "18711971689"
+  password: "123456"
+
+
+user_login_new:
+  - url: '/user/login'
+    method: POST
+    data: { account: 18711971689,password: 123456 }
+shopping_cart:
+  - url: '/shop-cart/add'
+    method: POST
+    data: '{"userId": "0737f648eab1420db8b2a72cb09952dd","shopCartProducts": [{"quantity": 1, "productSku":"305838"}]}'
+#请求头
+headers: '{"Content-Type": "application/json;chars"}'
+
+#加入购物车的sku和数量
+add_sku:
+  path : "/shop-cart/add"
+  productSku : "300895"
+  quantity: "1"
+#提交订单所需的参数
+odrder_submit:
+  path : "/order/submit"
+  productSku : "300895"
+  quantity : "1"
+  recName : "臻品口腔门诊部反复复电话号是啥对对对2"
+  recTel : "17877474744"
+  recAddr : "天津市天津市和平区物业A1楼1"

@@ -1,0 +1,10 @@
+[32mINFO    [0m root:conftest.py:15 开始执行用例
+[32mINFO    [0m root:httpClient.py:36 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+[32mINFO    [0m root:httpClient.py:37 请求方法>>POST
+[32mINFO    [0m root:httpClient.py:39 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '0737f648eab1420db8b2a72cb09952dd'}, 'code': '000', 'msg': '成功', 'success': True}
+[32mINFO    [0m root:httpClient.py:44 data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+[32mINFO    [0m root:conftest.py:17 用例执行结束

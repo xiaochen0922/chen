@@ -1,0 +1,1 @@
+[{"uid":"39bf17a1a0512e60","name":"用户登录测试","time":{"start":1712566289425,"stop":1712566289493,"duration":68},"status":"passed","severity":"normal"},{"uid":"baa9788572b85dfe","name":"test_shopping_cart","time":{"start":1712566289498,"stop":1712566289720,"duration":222},"status":"passed","severity":"normal"}]

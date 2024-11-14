@@ -1,0 +1,22 @@
+2024-04-07 16:59:01,997-httpClient.py-[line:60]-INFO-[日志信息]: 接口的请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-07 16:59:01,998-httpClient.py-[line:61]-INFO-[日志信息]: 接口的请求方法>>POST
+2024-04-07 16:59:01,998-httpClient.py-[line:62]-INFO-[日志信息]: 接口的请求方法>>{"body":{"mobile":"18711971689","userName":"老铁诊所( ´͈ ⌵ `͈ )σண♡﻿","userId":"0737f648eab1420db8b2a72cb09952dd"},"code":"000","msg":"成功","success":true}
+2024-04-07 16:59:01,998-httpClient.py-[line:66]-INFO-[日志信息]: 接口请求的data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-07 16:59:02,081-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-07 16:59:02,159-httpClient.py-[line:60]-INFO-[日志信息]: 接口的请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-04-07 16:59:02,160-httpClient.py-[line:61]-INFO-[日志信息]: 接口的请求方法>>POST
+2024-04-07 16:59:02,160-httpClient.py-[line:62]-INFO-[日志信息]: 接口的请求方法>>{"body":{"mobile":"18711971689","userName":"老铁诊所( ´͈ ⌵ `͈ )σண♡﻿","userId":"0737f648eab1420db8b2a72cb09952dd"},"code":"000","msg":"成功","success":true}
+2024-04-07 16:59:02,160-httpClient.py-[line:66]-INFO-[日志信息]: 接口请求的data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-04-07 16:59:02,241-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-07 16:59:02,243-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-07 16:59:02,340-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-04-07 16:59:02,341-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-04-07 16:59:02,342-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束

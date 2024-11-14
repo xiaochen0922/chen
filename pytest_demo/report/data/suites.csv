@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 08 16:51:29 CST 2024","Mon Apr 08 16:51:29 CST 2024","68","pytest_demo.testcase.usercenter","test_user","TestUser","","","用户登录测试","测试用户登录功能是否正常"
+"passed","Mon Apr 08 16:51:29 CST 2024","Mon Apr 08 16:51:29 CST 2024","222","pytest_demo.testcase.usercenter","test_user","TestUser","","","test_shopping_cart",""

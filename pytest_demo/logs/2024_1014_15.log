@@ -1,0 +1,87 @@
+2024-10-14 15:17:55,271-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-10-14 15:17:55,271-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-10-14 15:17:55,272-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '3e6871a9e6bc4b9cb7f25c1208eb125f'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:17:55,272-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-10-14 15:17:55,276-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-10-14 15:17:55,343-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-10-14 15:17:55,343-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-10-14 15:17:55,344-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '3e6871a9e6bc4b9cb7f25c1208eb125f'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:17:55,344-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-10-14 15:17:55,345-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-10-14 15:17:55,347-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-10-14 15:17:55,612-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-10-14 15:17:55,612-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-10-14 15:17:55,613-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:17:55,613-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"3e6871a9e6bc4b9cb7f25c1208eb125f\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-10-14 15:17:55,613-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-10-14 15:17:55,614-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-10-14 15:27:32,778-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-10-14 15:27:32,780-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-10-14 15:27:32,780-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '3e6871a9e6bc4b9cb7f25c1208eb125f'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:27:32,780-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-10-14 15:27:32,785-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-10-14 15:27:32,975-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-10-14 15:27:32,975-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-10-14 15:27:32,976-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '3e6871a9e6bc4b9cb7f25c1208eb125f'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:27:32,976-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-10-14 15:27:32,977-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-10-14 15:27:32,979-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-10-14 15:27:33,237-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-10-14 15:27:33,237-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-10-14 15:27:33,238-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:27:33,238-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"3e6871a9e6bc4b9cb7f25c1208eb125f\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-10-14 15:27:33,238-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-10-14 15:27:33,239-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-10-14 15:51:07,285-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-10-14 15:51:07,286-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-10-14 15:51:07,286-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '3e6871a9e6bc4b9cb7f25c1208eb125f'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:51:07,286-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-10-14 15:51:07,292-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-10-14 15:51:07,369-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/user/login
+2024-10-14 15:51:07,370-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>POST
+2024-10-14 15:51:07,370-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'body': {'mobile': '18711971689', 'userName': '老铁诊所( ´͈ ⌵ `͈ )σண♡\ufeff', 'userId': '3e6871a9e6bc4b9cb7f25c1208eb125f'}, 'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:51:07,370-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+{
+  "account": "18711971689",
+  "password": "123456"
+}
+2024-10-14 15:51:07,371-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
+2024-10-14 15:51:07,374-conftest.py-[line:15]-INFO-[日志信息]: 开始执行用例
+2024-10-14 15:51:07,641-httpClient.py-[line:36]-INFO-[日志信息]: 请求地址>>https://test.api.lichidental.com/lichidental-web/shop-cart/add
+2024-10-14 15:51:07,641-httpClient.py-[line:37]-INFO-[日志信息]: 请求方法>>post
+2024-10-14 15:51:07,641-httpClient.py-[line:39]-INFO-[日志信息]: 响应内容>>{'code': '000', 'msg': '成功', 'success': True}
+2024-10-14 15:51:07,641-httpClient.py-[line:44]-INFO-[日志信息]: data参数>>>
+"{\"userId\": \"3e6871a9e6bc4b9cb7f25c1208eb125f\", \"shopCartProducts\": [{\"quantity\": \"1\", \"productSku\": \"300895\"}]}"
+2024-10-14 15:51:07,641-httpClient.py-[line:50]-INFO-[日志信息]: headers参数>>>
+{
+  "Content-Type": "application/json;chars"
+}
+2024-10-14 15:51:07,642-conftest.py-[line:17]-INFO-[日志信息]: 用例执行结束
